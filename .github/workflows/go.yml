@@ -16,13 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.19
-        
-    - name: check out code into the go module directory
-      uses: actions/checkout@v2
+
+
       
     - name: Go example
       uses: cykulkarni/practise-gh-action@v1
